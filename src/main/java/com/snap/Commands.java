@@ -26,12 +26,18 @@ public class Commands extends Player {
     }
 
     public String winnerSnap() {
-        String winningInput = "";
+        String winningInput = "snap";
         winningInput = scanner.nextLine();
 
         // IN HERE ADD A NEW SCANNER THAT IS ACTIVATED WHEN THE IF STATEMENT ON THE SNAP CLASS IS TRUE.
 
         return winningInput;
+    }
+
+    public String restartSnap() {
+        String restarting = "";
+        restarting = scanner.nextLine();
+        return restarting;
     }
 }
 

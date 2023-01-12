@@ -8,6 +8,13 @@ public class Snap extends CardGame {
         super("snap");
     }
 
+    private void restartSnap(){
+       if (commands.restartSnap().equals("y")) {
+           System.out.println("Game is restarting");
+           snapGame();
+       } else {faceMatch = true;}
+    }
+
     public void snapGame() {
         createDeck();
         sortCards(CardSorting.shuffle);
@@ -20,10 +27,12 @@ public class Snap extends CardGame {
             if (firstCard.getCardFace().equals(newCard.getCardFace())) {
                 if (commands.winnerSnap().equals("snap")) {
                     System.out.println("It's a match! Congratulations, you've won!");
-                    faceMatch = true;
+                    System.out.println("Would you like to play again? Y/N");
+                    restartSnap();
+//                    faceMatch = true;
                 } else if (commands.winnerSnap().equals("")) {
-                    System.out.println("You missed a snap, press Enter to deal another card");
                     firstCard = newCard;
+                    System.out.println("Sorry! You missed a snap, press Enter to deal another card");
                 }
 
 

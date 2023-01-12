@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="474ac7b2-5531-4926-a7bd-324c09313612" name="Changes" comment="Created snap game and implemented sorting/shuffle features">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/snap/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/CardGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Player.java" afterDir="false" />
+    <list default="true" id="474ac7b2-5531-4926-a7bd-324c09313612" name="Changes" comment="Winning situation and missed snap implemented">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Snap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Snap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/SortDeckInNumberOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/SortDeckInNumberOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/SortDeckIntoSuits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/SortDeckIntoSuits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,11 +97,19 @@
       <option name="project" value="LOCAL" />
       <updated>1673372379509</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Winning situation and missed snap implemented">
+      <created>1673535086774</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673535086774</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created snap game and implemented sorting/shuffle features" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created snap game and implemented sorting/shuffle features" />
+    <MESSAGE value="Winning situation and missed snap implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Winning situation and missed snap implemented" />
   </component>
 </project>
