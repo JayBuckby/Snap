@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="474ac7b2-5531-4926-a7bd-324c09313612" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/snap/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/snap/CardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/snap/CardSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/snap/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/snap/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/snap/Snap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/snap/SortDeckInNumberOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/snap/SortDeckIntoSuits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/snap/Suits.java" afterDir="false" />
+    <list default="true" id="474ac7b2-5531-4926-a7bd-324c09313612" name="Changes" comment="Created snap game and implemented sorting/shuffle features">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/snap/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/CardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Snap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Snap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/SortDeckInNumberOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/SortDeckInNumberOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/SortDeckIntoSuits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/SortDeckIntoSuits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,13 +47,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.com.snap.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -102,6 +97,18 @@
       <option name="presentableId" value="Default" />
       <updated>1673360395691</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created snap game and implemented sorting/shuffle features">
+      <created>1673372379509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673372379509</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created snap game and implemented sorting/shuffle features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created snap game and implemented sorting/shuffle features" />
   </component>
 </project>

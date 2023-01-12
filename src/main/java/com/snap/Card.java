@@ -21,6 +21,10 @@ public class Card {
         return cardSuit;
     }
 
+    public String getCardFace() {
+        return cardFace;
+    }
+
     @Override
     public String toString() {
         return "[" +

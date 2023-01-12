@@ -29,17 +29,37 @@ public class CardGame {
         this.name = name;
     }
 
+    public ArrayList<Card> getDeck() {
+        return deckOfCards;
+    }
+
+    public void sortCards(CardSorting sortingMethod) {
+        switch (sortingMethod) {
+            case byValue:
+                deckOfCards.sort(new SortDeckInNumberOrder());
+                break;
+            case bySuit:
+                deckOfCards.sort(new SortDeckIntoSuits());
+                break;
+            case shuffle:
+                Collections.shuffle(deckOfCards);
+                break;
+        }
+//        for (Card card : deckOfCards) {
+//            System.out.println(card);
+//        }
+    }
+
     public Card dealCard() {
         Card takeCard = deckOfCards.get(deckOfCards.size() - 1);
         deckOfCards.remove(deckOfCards.size() - 1);
         System.out.println(takeCard);
+        if (getDeck().size() == 0) {
+            createDeck();
+            sortCards(CardSorting.shuffle);
+
+        }
         return takeCard;
-
-    }
-
-    public ArrayList<Card> getDeck() {
-        return deckOfCards;
-    }
 
 //    public ArrayList<Card> listCards() {
 //        deckOfCards.sort(new SortDeckIntoSuits());
@@ -56,23 +76,6 @@ public class CardGame {
 //        return deckOfCards;
 //    }
 
-    public void sortCards(CardSorting cardSorting) {
-        switch (cardSorting) {
-            case byValue:
-                deckOfCards.sort(new SortDeckInNumberOrder());
-                break;
-            case bySuit:
-                deckOfCards.sort(new SortDeckIntoSuits());
-                break;
-            case shuffle:
-                Collections.shuffle(deckOfCards);
-                break;
-        }
-        for (Card card : deckOfCards) {
-            System.out.println(card);
-        }
+
     }
-
-
-
 }
