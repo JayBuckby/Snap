@@ -8,7 +8,6 @@ public class Commands extends Player {
     public String getUserInput() {
         String userInput = "";
         boolean cardLoop = true;
-//        boolean isThereAMatch = false;
 
         while (cardLoop) {
 
@@ -26,10 +25,10 @@ public class Commands extends Player {
     }
 
     public String winnerSnap() {
-        String winningInput = "snap";
+        String winningInput = "";
         winningInput = scanner.nextLine();
 
-        // IN HERE ADD A NEW SCANNER THAT IS ACTIVATED WHEN THE IF STATEMENT ON THE SNAP CLASS IS TRUE.
+
 
         return winningInput;
     }

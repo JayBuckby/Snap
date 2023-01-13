@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="474ac7b2-5531-4926-a7bd-324c09313612" name="Changes" comment="Winning situation and missed snap implemented">
+    <list default="true" id="474ac7b2-5531-4926-a7bd-324c09313612" name="Changes" comment="Game restart method after win implemented">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Snap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Snap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,12 +106,20 @@
       <option name="project" value="LOCAL" />
       <updated>1673535086774</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Game restart method after win implemented">
+      <created>1673535791740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673535791740</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created snap game and implemented sorting/shuffle features" />
     <MESSAGE value="Winning situation and missed snap implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Winning situation and missed snap implemented" />
+    <MESSAGE value="Game restart method after win implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game restart method after win implemented" />
   </component>
 </project>
