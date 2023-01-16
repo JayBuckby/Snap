@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="474ac7b2-5531-4926-a7bd-324c09313612" name="Changes" comment="Added player messages">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/snap/Snap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/snap/Snap.java" afterDir="false" />
-    </list>
+    <list default="true" id="474ac7b2-5531-4926-a7bd-324c09313612" name="Changes" comment="Added personal name taking for players" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673881987577</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added personal name taking for players">
+      <created>1673883749922</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673883749922</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +164,7 @@
     <MESSAGE value="Snap game finished, implementing player switching." />
     <MESSAGE value="Tidied up code, added playerSwitch messages" />
     <MESSAGE value="Added player messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added player messages" />
+    <MESSAGE value="Added personal name taking for players" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added personal name taking for players" />
   </component>
 </project>
