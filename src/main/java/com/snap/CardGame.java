@@ -45,9 +45,7 @@ public class CardGame {
                 Collections.shuffle(deckOfCards);
                 break;
         }
-//        for (Card card : deckOfCards) {
-//            System.out.println(card);
-//        }
+
     }
 
     public Card dealCard() {
@@ -60,21 +58,6 @@ public class CardGame {
 
         }
         return takeCard;
-
-//    public ArrayList<Card> listCards() {
-//        deckOfCards.sort(new SortDeckIntoSuits());
-//        for (Card card : deckOfCards) {
-//            System.out.println(card);
-//        }
-//        return deckOfCards;
-//    }
-//    public ArrayList<Card> listCards(){
-//        deckOfCards.sort(new SortDeckInNumberOrder());
-//        for (Card card  : deckOfCards) {
-//            System.out.println(card);
-//        }
-//        return deckOfCards;
-//    }
 
 
     }
