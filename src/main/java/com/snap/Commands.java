@@ -2,7 +2,7 @@ package com.snap;
 
 import java.util.Scanner;
 
-public class Commands extends Player {
+public class Commands {
     Scanner scanner = new Scanner(System.in);
 
     public String getUserInput() {
@@ -27,7 +27,6 @@ public class Commands extends Player {
     public String winnerSnap() {
         String winningInput = "";
         winningInput = scanner.nextLine();
-
 
 
         return winningInput;

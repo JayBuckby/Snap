@@ -8,11 +8,13 @@ public class Snap extends CardGame {
         super("snap");
     }
 
-    private void restartSnap(){
-       if (commands.restartSnap().equals("y")) {
-           System.out.println("Game is restarting");
-           snapGame();
-       } else {faceMatch = true;}
+    private void restartSnap() {
+        if (commands.restartSnap().equals("y")) {
+            System.out.println("Game is restarting");
+            snapGame();
+        } else {
+            faceMatch = true;
+        }
     }
 
     public void snapGame() {
@@ -20,11 +22,14 @@ public class Snap extends CardGame {
         sortCards(CardSorting.shuffle);
         System.out.println("First Card is being dealt, to deal more cards, press Enter, to claim a match, you must type snap.");
         Card firstCard = dealCard();
-        String playersTurn = "player-1";
+        String playersTurn = "The First card has been drawn, player one take your turn";
+        String playersSwitch = "Player One this is your card";
         System.out.println(playersTurn);
+        playersTurn = "Player One draw your card";
         while (!faceMatch) {
             commands.getUserInput();
             Card newCard = dealCard();
+            System.out.println(playersSwitch);
             System.out.println("Press Enter to deal another card");
             if (firstCard.getCardFace().equals(newCard.getCardFace())) {
                 String userEnter = commands.winnerSnap();
@@ -42,7 +47,9 @@ public class Snap extends CardGame {
             } else {
                 firstCard = newCard;
             }
-        playersTurn = playersTurn.equals("player-1") ? "player-2" : "player-1";
+
+            playersSwitch = playersSwitch.equals("Player One this is your card") ? "Player Two this is your card" : "Player One this is your card";
+            playersTurn = playersTurn.equals("Player One draw your card") ? "Player Two draw your card" : "Player One draw your card";
             System.out.println(playersTurn);
         }
     }
