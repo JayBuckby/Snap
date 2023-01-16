@@ -37,6 +37,12 @@ public class Commands {
         restarting = scanner.nextLine();
         return restarting;
     }
+
+    public String takeNames() {
+        String name = "";
+        name = scanner.nextLine();
+        return name;
+    }
 }
 
 

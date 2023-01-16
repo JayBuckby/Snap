@@ -18,17 +18,22 @@ public class Snap extends CardGame {
         }
     }
 
+
     public void snapGame() {
         createDeck();
         sortCards(CardSorting.shuffle);
         System.out.println("\uD83C\uDD56\uD83C\uDD50\uD83C\uDD5C\uD83C\uDD54 \uD83C\uDD58\uD83C\uDD5D\uD83C\uDD58\uD83C\uDD63\uD83C\uDD58\uD83C\uDD50\uD83C\uDD5B\uD83C\uDD58\uD83C\uDD62\uD83C\uDD58\uD83C\uDD5D\uD83C\uDD56");
         System.out.println("Welcome to the game of Snap! The rules are simple, hit Enter to deal a card, if a match presents itself, then type snap to claim it and win, but don't miss your chance!");
+        System.out.println("Player One enter your name");
+        String playerOne = commands.takeNames();
+        System.out.println("Player Two enter your name");
+        String playerTwo = commands.takeNames();
         System.out.println("The starting card is being dealt");
         Card firstCard = dealCard();
-        String playersTurn = "The first card has been drawn, player one take your turn";
-        String playersSwitch = "Player One this is your card";
+        String playersTurn = "The first card has been drawn, " + playerOne + " take your turn";
+        String playersSwitch = playerOne + " this is your card";
         System.out.println(playersTurn);
-        playersTurn = "Player One draw your card";
+        playersTurn = playerOne + " draw your card";
         while (!faceMatch) {
             commands.getUserInput();
             Card newCard = dealCard();
@@ -36,7 +41,6 @@ public class Snap extends CardGame {
             if (firstCard.getCardFace().equals(newCard.getCardFace())) {
                 String userInput = commands.winnerSnap();
                 if (userInput.equals("snap")) {
-
                     System.out.println("It's a match! Congratulations, you've won!");
                     System.out.println("Would you like to play again? Y/N");
                     restartSnap();
@@ -50,8 +54,8 @@ public class Snap extends CardGame {
                 firstCard = newCard;
             }
 
-            playersSwitch = playersSwitch.equals("Player One this is your card") ? "Player Two this is your card" : "Player One this is your card";
-            playersTurn = playersTurn.equals("Player One draw your card") ? "Player Two draw your card" : "Player One draw your card";
+            playersSwitch = playersSwitch.equals(playerOne + " this is your card") ? playerTwo + " this is your card" : playerOne + " this is your card";
+            playersTurn = playersTurn.equals(playerOne + " draw your card") ? playerTwo + " draw your card" : playerOne + " draw your card";
             if (faceMatch) {
                 System.out.println("Thanks for playing");
             } else {
